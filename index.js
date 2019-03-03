@@ -1,4 +1,4 @@
-function log(str) {
+function log(strings) {
   console.clear()
-  str[0].split(',').forEach(v => eval(`console.log("${v} ->",${v})`))
+  strings[0].split(',').forEach(v => eval(`console.log("${v} ->",${v})`))
 }
