@@ -1,11 +1,11 @@
 > log varibles name and varibles both in console
 
 ```javascript
-let name = 'nanlei'
-let age = 18
+const name = 'zhangsan'
+const age = 18
 log`name,age`
-/* input:
-name -> nanlei
+/* stdout:
+name -> zhangsan
 age -> 18
 */
 log(name) /* ❌error */
